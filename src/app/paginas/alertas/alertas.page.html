@@ -1,0 +1,17 @@
+<!--
+  <ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" text="Regresar"></ion-back-button>
+    </ion-buttons>
+    <ion-title>alertas</ion-title>
+  </ion-toolbar>
+</ion-header>
+-->
+<app-header titulo="Alertas"></app-header>
+
+<ion-content class='ion-padding'>
+  <ion-button (click)="presentAlert()" expand='block'> Mostrar Alerta</ion-button>
+  <ion-button (click)="onClick()" expand='block'> Mostrar Alerta con MB</ion-button>
+  <ion-button (click)="presentAlertPrompt()" expand='block' color="danger"> Mostrar Alerta Prompt</ion-button>
+</ion-content>
